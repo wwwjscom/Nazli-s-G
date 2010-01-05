@@ -1,4 +1,13 @@
+.wrapper
+{
+	width 			: 640;
+	margin-left		: auto;
+	margin-right		: auto;
+	font-size 		: 1em;
+	font-family 		: Arial,Helvetica,Garuda,sans-serif;
+}
+
 img .g-cs
 {
-	float 				: left;
+	float 			: left;
 }
