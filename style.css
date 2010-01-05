@@ -42,12 +42,21 @@
 
 .wrapper img.nazli
 {
-	padding 		: 10px;
+	border 			: 1px solid black;
+	margin 			: 10px;
 	float 			: left;
 }
 
-.wrapper p.bio
+.wrapper .bio
 {
+	text-align 		: justify;
+	min-height 		: 320px;
+}
+
+.wrapper .bio p
+{
+	line-height 		: 16px;
+	margin 			: 8px 0 18px 0;
 	text-align 		: justify;
 }
 
