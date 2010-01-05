@@ -1,13 +1,70 @@
 .wrapper
 {
-	width 			: 640;
-	margin-left		: auto;
-	margin-right		: auto;
-	font-size 		: 1em;
+	width 			: 700px;
+	margin 			: 0 auto;
+	font-size 		: 0.9em;
 	font-family 		: Arial,Helvetica,Garuda,sans-serif;
 }
 
-img .g-cs
+.wrapper img.g-cs
 {
+	vertical-align 		: top;
 	float 			: left;
+}
+
+.wrapper img.name_title
+{
+	float 			: right;
+}
+
+
+.wrapper .nav ul
+{
+	float 			: right;
+	padding 		: 0;
+	margin 			: 6px 0 -3px 0;
+}
+
+.wrapper .nav li
+{
+	display 		: inline;
+	list-style 		: none;
+	padding 		: 0;
+	margin 			: -2px;
+}
+
+.wrapper .body
+{
+	width 			: 640px;
+	border 			: 1px solid black;
+	padding 		: 30px;
+}
+
+.wrapper img.nazli
+{
+	padding 		: 10px;
+	float 			: left;
+}
+
+.wrapper p.bio
+{
+	text-align 		: justify;
+}
+
+.wrapper .line
+{
+	border-bottom		: 1px solid black;
+}
+
+
+.wrapper .body .address
+{
+	padding 		: 15px 0 0 0;
+	text-align 		: center;
+}
+
+.wrapper .body .address strong.red
+{
+	color 		: #C94D4D;
+	font-size 	: 1.2em;
 }
