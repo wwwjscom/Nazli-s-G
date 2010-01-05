@@ -61,10 +61,11 @@
 {
 	padding 		: 15px 0 0 0;
 	text-align 		: center;
+	font-size 		: 0.9em;
 }
 
 .wrapper .body .address strong.red
 {
-	color 		: #C94D4D;
-	font-size 	: 1.2em;
+	color 			: #C94D4D;
+	font-size 		: 1.5em;
 }
