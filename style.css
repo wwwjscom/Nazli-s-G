@@ -78,3 +78,35 @@
 	color 			: #C94D4D;
 	font-size 		: 1.5em;
 }
+
+
+
+
+/*******************************
+ * Research Page
+ ******************************/
+body.research h1
+{
+	text-align 		: center;
+	text-decoration 	: underline;
+	color 			: #C94D4D;
+}
+
+body.research h2
+{
+	color 			: #C94D4D;
+	font-size 		: 1.1em;
+}
+
+body.research p
+{
+	padding 		: 20px;
+	font-size 		: 0.9em;
+}
+
+body.research ul
+{
+	padding 		: 10px 40px;
+	font-size 		: 0.9em;
+	list-style-image 	: url('images/bullet.gif');
+}
