@@ -1,3 +1,35 @@
+/*********************
+ * Site-wide
+ ********************/
+h1
+{
+	text-align 		: center;
+	color 			: #C94D4D;
+}
+
+h2
+{
+	color 			: #C94D4D;
+	font-size 		: 1.1em;
+}
+
+ul
+{
+	padding 		: 10px 40px;
+	font-size 		: 0.9em;
+	list-style-image 	: url('images/bullet.gif');
+}
+
+li
+{
+	padding 		: 5px 0;
+}
+
+
+
+
+
+
 .wrapper
 {
 	width 			: 700px;
@@ -87,15 +119,7 @@
  ******************************/
 body.research h1
 {
-	text-align 		: center;
 	text-decoration 	: underline;
-	color 			: #C94D4D;
-}
-
-body.research h2
-{
-	color 			: #C94D4D;
-	font-size 		: 1.1em;
 }
 
 body.research p
@@ -111,18 +135,6 @@ body.research p.jump
 	font-size 		: 0.9em;
 }
 
-body.research ul
-{
-	padding 		: 10px 40px;
-	font-size 		: 0.9em;
-	list-style-image 	: url('images/bullet.gif');
-}
-
-body.research li
-{
-	padding 		: 5px 0;
-}
-
 
 
 /*******************************
@@ -130,22 +142,9 @@ body.research li
  ******************************/
 body.publications h1
 {
-	text-align 		: center;
 	text-decoration 	: underline;
-	color 			: #C94D4D;
 }
 
-body.publications ul
-{
-	padding 		: 10px 40px;
-	font-size 		: 0.9em;
-	list-style-image 	: url('images/bullet.gif');
-}
-
-body.publications li
-{
-	padding 		: 5px 0;
-}
 
 
 /*******************************
@@ -163,8 +162,11 @@ body.classes #ir_header
 	margin 			: 0 0 -3px 0;
 }
 
-body.classes #ir h2
+
+/*******************************
+ * IR Page
+ ******************************/
+body.ir p, body.ir li
 {
-	color 			: #C94D4D;
-	font-size 		: 1.1em;
+	font-size 		: 0.9em;
 }
