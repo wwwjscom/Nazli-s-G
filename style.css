@@ -104,6 +104,13 @@ body.research p
 	font-size 		: 0.9em;
 }
 
+body.research p.jump
+{
+	margin 			: 0 0 -10px 40px;
+	padding 		: 0;
+	font-size 		: 0.9em;
+}
+
 body.research ul
 {
 	padding 		: 10px 40px;
