@@ -146,3 +146,25 @@ body.publications li
 {
 	padding 		: 5px 0;
 }
+
+
+/*******************************
+ * Classes Page
+ ******************************/
+body.classes #ir
+{
+	border 			: 1px black solid;
+	padding 		: 15px;
+}
+
+body.classes #ir_header
+{
+	padding 		: 0;
+	margin 			: 0 0 -3px 0;
+}
+
+body.classes #ir h2
+{
+	color 			: #C94D4D;
+	font-size 		: 1.1em;
+}
