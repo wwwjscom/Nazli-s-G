@@ -117,3 +117,32 @@ body.research ul
 	font-size 		: 0.9em;
 	list-style-image 	: url('images/bullet.gif');
 }
+
+body.research li
+{
+	padding 		: 5px 0;
+}
+
+
+
+/*******************************
+ * Publications Page
+ ******************************/
+body.publications h1
+{
+	text-align 		: center;
+	text-decoration 	: underline;
+	color 			: #C94D4D;
+}
+
+body.publications ul
+{
+	padding 		: 10px 40px;
+	font-size 		: 0.9em;
+	list-style-image 	: url('images/bullet.gif');
+}
+
+body.publications li
+{
+	padding 		: 5px 0;
+}
